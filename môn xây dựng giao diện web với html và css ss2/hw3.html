@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-bottom: 30px;
+        }
+        
+        th, td {
+            border: 2px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        
+        h3 {
+            color: #333;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<h3>Ví dụ 1: Sử dụng colspan (gộp cột)</h3>
+<table>
+    <tr>
+        <th colspan="2">Thông tin cá nhân</th>
+    </tr>
+    <tr>
+        <th>Họ và tên</th>
+        <td>Nguyễn Văn A</td>
+    </tr>
+    <tr>
+        <th>Địa chỉ</th>
+        <td>Hà Nội</td>
+    </tr>
+</table>
+
+<h3>Ví dụ 2: Sử dụng rowspan (gộp hàng)</h3>
+<table>
+    <tr>
+        <th colspan="2">Thông tin cá nhân</th>
+    </tr>
+    <tr>
+        <th>Họ và tên</th>
+        <td>Nguyễn Văn A</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Địa chỉ</th>
+        <td>Hà Nội</td>
+    </tr>
+    <tr>
+        <td>Hồ Chí Minh</td>
+    </tr>
+</table>
+
+<h3>Ví dụ 3: Kết hợp rowspan và colspan</h3>
+<table>
+    <tr>
+        <th colspan="3">Danh sách sinh viên</th>
+    </tr>
+    <tr>
+        <th>STT</th>
+        <th>Tên</th>
+        <th>Điểm</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Nguyễn Văn A</td>
+        <td rowspan="2">8.5</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Trần Thị B</td>
+    </tr>
+</table>
+
+</body>
+</html>
