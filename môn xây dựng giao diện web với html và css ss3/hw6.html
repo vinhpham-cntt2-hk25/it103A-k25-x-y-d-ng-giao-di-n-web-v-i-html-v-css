@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Đăng Ký Hội Viên</title>
+</head>
+<body>
+
+    <form action="/submit-form" method="POST">
+        <table cellpadding="5">
+            <tr>
+                <td>Họ và tên:</td>
+                <td><input type="text" name="ho_ten"></td>
+            </tr>
+
+            <tr>
+                <td>Ngày sinh:</td>
+                <td><input type="date" name="ngay_sinh"></td>
+            </tr>
+
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" name="gioi_tinh" value="Nam"> Nam
+                    <input type="radio" name="gioi_tinh" value="Nu"> Nữ
+                </td>
+            </tr>
+
+            <tr>
+                <td>Số điện thoại:</td>
+                <td><input type="tel" name="sdt"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Vai trò trong công ty:</td>
+                <td>
+                    <select name="vai_tro">
+                        <option value="ceo">Giám đốc điều hành (CEO)</option>
+                        <option value="manager">Quản lý</option>
+                        <option value="staff">Nhân viên</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Lý do tham gia câu lạc bộ:</td>
+                <td>
+                    <textarea name="ly_do" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Chương trình muốn tham gia:</td>
+                <td>
+                    <input type="checkbox" name="event" value="networking"> Networking
+                    <input type="checkbox" name="event" value="workshops"> Workshops
+                    <input type="checkbox" name="event" value="hoi_thao"> Hội thảo
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Đăng ký hội viên</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

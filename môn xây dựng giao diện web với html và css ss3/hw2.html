@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Đặt mua tài liệu</title>
+</head>
+<body>
+
+    <h2 align="center">Form Đặt Mua Tài Liệu Lập Trình</h2>
+
+    <form action="post" method="POST">
+        <table align="center" cellpadding="5">
+            <tr>
+                <td>Chọn tài liệu:</td>
+                <td>
+                    <select name="tai_lieu">
+                        <option value="html_css">Tài liệu môn HTML&CSS</option>
+                        <option value="js">Tài liệu môn Javascript</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số lượng:</td>
+                <td>
+                    <input type="number" name="so_luong" value="1">
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">Ghi chú:</td>
+                <td>
+                    <textarea name="ghi_chu" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top">Địa chỉ giao hàng:</td>
+                <td>
+                    <textarea name="dia_chi" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Đặt mua">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thu thập thông tin CCCD</title>
+</head>
+<body>
+    <h3>Hãy tạo ra một giao diện form thu thập thông tin căn cước công dân như sau</h3>
+    <form action="save.php" method="POST">
+        <table cellpadding="3">
+            <tr>
+                <td>Họ và tên:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                </tr><td>Ngày sinh:</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td><input type="radio" name="g"> Nam <input type="radio" name="g"> Nữ</td>
+            </tr>
+            <tr>
+                <td>Số căn cước công dân:</td>
+                <td><input type="text" name="id"></td>
+            </tr>
+            <tr>
+                <td>Ngày cấp:</td>
+                <td><input type="date" name="id_date"></td></tr>
+            <tr>
+                <td>Nơi cấp:</td>
+                <td><input type="text" name="id_place"></td>
+            </tr>
+            <tr>
+                <td>Số điện thoại:</td>
+                <td><input type="tel" name="tel"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ thường trú:</td>
+                <td><textarea name="addr1"></textarea></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ tạm trú:</td>
+                <td><textarea name="addr2"></textarea></td>
+            </tr>
+            <tr>
+                <td>Loại căn cước công dân:</td>
+                <td>
+                <input type="radio" name="type"> Căn cước công dân mới 
+                <input type="radio" name="type"> Căn cước công dân cũ
+            </td></tr>
+            <tr>
+                <td>Dân tộc:</td><td><input type="text" name="dt"></td>
+            </tr>
+            <tr>
+                <td>Tôn giáo:</td><td><input type="text" name="tg"></td>
+            </tr>
+            <tr>
+                <td>Quốc tịch:</td><td><input type="text" name="qt" value="Việt Nam"></td>
+            </tr>
+            <tr>
+                <td>Họ tên cha/mẹ:</td><td><input type="text" name="parent"></td>
+            </tr>
+            <tr>
+                <td>Số CMND/CCCD của cha/mẹ:</td><td><input type="text" name="parent_id"></td>
+            </tr>
+            <tr>
+                <td>Tỉnh/Thành phố:</td>
+                <td>
+                <select name="city"><option>Chọn Tỉnh/Thành phố</option></select>
+            </td>
+        </tr>
+            <tr>
+                <td></td><td><input type="submit" value="Gửi thông tin"></td></tr>
+        </table>
+    </form>
+</body>
+</html>

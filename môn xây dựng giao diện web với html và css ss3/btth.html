@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method ="post">
+        <h2>Đăng ký sinh viên mới</h2>
+        <p>Họ và tên <input type="text" name="fullname" placeholder="Họ và Tên" required></p>
+        <p>Ngày sinh đầy đủ <input type="datetime-local" name="datetime" required></p>
+        <p>Tháng và năm nhập học <input type="month" name="monthyear" required></p>
+        <p>thời gian học <input type="time" name="timestudy" required></p>
+        <p>Giới tính <select name="gender" required>
+            <option value="male">Nam</option>
+            <option value="female">Nữ</option>
+            <option value="other">Khác</option>
+        </select></p>
+        <p>Email sinh viên <input type="email" name="emailsv" placeholder="Email sinh viên" required></p>
+        <p>Mật khẩu <input type="password" name="password" placeholder="Mật khẩu" required></p>
+        <p>Mục tiêu học tập <textarea name="targetstudy" placeholder="Mục tiêu học tập" required></textarea></p>
+        <p>Cơ sở <select name="campus" required>
+            <option value="hn">Hà Nội</option>
+            <option value="hcm">Hồ Chí Minh</option>
+        </select></p>
+        <p>Ảnh thẻ sinh viên <input type="file" name="avatar" accept="image/*" required></p>
+        <p>Môn học yêu thích <input type="checkbox" name="favorite_subjects[]" value="math"> Toán học
+            <input type="checkbox" name="favorite_subjects[]" value="physics"> Lập trình
+            <input type="checkbox" name="favorite_subjects[]" value="chemistry"> Tiếng Anh
+            <input type="checkbox" name="favorite_subjects[]" value="biology"> Vật lý</p>
+        <p>Tiến độ học tập <input type="range" name="progress" min="0" max="100" required></p>
+        <p>Năm học thứ <input type="number" name="year" min="1" max="4" required></p>
+        <p>Tìm kiếm khóa học <input type="search" name="search" placeholder="Tìm kiếm khóa học"></p>
+        <p>Màu sắc yêu thích <input type="color" name="favorite_color" required></p>
+        <button type="reset">Hủy</button> <button type="reset">Làm mới</button> <button type="submit">Gửi</button>
+    </form>
+</body>
+</html>

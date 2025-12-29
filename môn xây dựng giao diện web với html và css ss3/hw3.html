@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thông tin cơ bản</title>
+</head>
+<body>
+    <h3>Hãy tạo ra một form điền thông tin cơ bản sau</h3>
+    <form action="submit.php" method="GET">
+        <table cellpadding="5">
+            <tr>
+                <td>Họ và tên:</td>
+                <td><input type="text" name="fullname" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" style="width: 250px;"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh:</td><td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                <input type="radio" name="gender" value="Nam"> Nam 
+                <input type="radio" name="gender" value="Nu"> Nữ
+                </td>
+            </tr>
+                <tr>
+                    <td>Số điện thoại:</td>
+                    <td><input type="tel" name="phone"></td>
+                </tr>
+                <tr>
+                    <td>Chuyên ngành:</td>
+                    <td><input type="text" name="major"></td>
+                </tr>
+                <tr>
+                    <td>Năm nhập học:</td>
+                    <td><input type="number" name="year"></td>
+                </tr>
+                <tr>
+                    <td>Điểm GPA:</td><td><input type="text" name="gpa"></td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ:</td><td><textarea name="address" rows="3" cols="40"></textarea></td>
+                </tr>
+            <tr>
+                <td>Lớp học:</td>
+                <td>
+                <select name="class">
+                    <option>Lớp 1</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Ngày đăng ký học:</td>
+                <td><input type="datetime-local" name="regDate"></td>
+            </tr>
+            <tr>
+                <td></td><td><input type="submit" value="Gửi thông tin"></td></tr>
+        </table>
+    </form>
+</body>
+</html>
