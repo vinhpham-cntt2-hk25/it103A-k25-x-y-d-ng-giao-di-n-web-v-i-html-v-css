@@ -1,0 +1,35 @@
+#box {
+    background-color: rgb(53, 210, 53);
+    color: rgb(105, 105, 235);
+    font-size: 25px;
+}
+
+.div_2{
+
+    background-color: rgb(21, 134, 234);
+    color: aliceblue;
+
+}
+
+.button{
+    height:36px;
+    color:black;
+    background-color: bisque;
+    font-size: 600;
+    border-radius: 8px;
+
+
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(238, 70, 70);
+}
+.button:focus{
+background-color: red;
+}
+
+.button:active{
+    background-color: blue;
+    word-spacing: 100%;
+}

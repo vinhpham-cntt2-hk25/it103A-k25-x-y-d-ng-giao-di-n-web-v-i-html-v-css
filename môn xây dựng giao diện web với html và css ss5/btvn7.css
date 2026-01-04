@@ -1,0 +1,21 @@
+body{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.image {
+    background-color: #f4f4f9;
+
+}
+.title_1 {
+    color: #1f68ff;
+}
+.slogan {
+    color: #2364ff;
+}
+.title_2 {
+     color: #1e90ff;
+     font-size: 25px;
+}
+.address_1 {
+color: red;
+}

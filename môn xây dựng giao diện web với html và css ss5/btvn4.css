@@ -1,0 +1,11 @@
+body{
+    background-color: #f4f4f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    color: #1e90ff;
+    text-align: center;
+}
+.contact{
+    line-height: 30px;
+}

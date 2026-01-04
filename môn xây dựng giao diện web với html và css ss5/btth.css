@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f9ff;
+}
+.header {
+    background-color: #0284c7;
+    color: #ffffff;
+    text-align: center;
+}
+
+.title {
+color: #0369a1;
+}
+div + i,
+ div + i + i{
+    color: #32a5e9;
+}
+.service {
+}
+.service_item {
+    list-style: none;
+}
+.service_item:hover {
+    color: #32a5e9;
+}
+p >i{
+    color: #be1c1c;
+}
+.link:link{
+    color: #32adef;
+}
+.link:hover{
+    color: #1c4459;
+}
+.footer {
+    background-color: #0284c7;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 900px;
+    font-size: 25px;
+}

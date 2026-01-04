@@ -1,0 +1,24 @@
+body{
+    background-color: #f4f4f9;
+    font-family:Arial, Helvetica, sans-serif
+}
+.title {
+    text-align: center;
+    line-height: 5px;
+
+}
+.service {
+    color:#1e90ff;
+
+}
+.main{
+    line-height: 30px;
+}
+.implant {
+    text-decoration: line-through underline ;
+}
+
+p + p{
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
