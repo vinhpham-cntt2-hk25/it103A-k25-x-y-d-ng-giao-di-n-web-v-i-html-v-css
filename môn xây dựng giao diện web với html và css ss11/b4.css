@@ -1,0 +1,12 @@
+.father {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.father div {
+    text-align: center;
+    margin: 10px 20px;
+}
+img {
+    border-radius: 5px;
+}
